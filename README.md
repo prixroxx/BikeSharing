@@ -1,4 +1,6 @@
-Bike_Sharing_Analysis :- -The goal of this project is to predict the demand for bike rentals based on various factors such as weather conditions, time of year, and other relevant features.
+### Bike_Sharing_Analysis :- 
+
+- The goal of this project is to predict the demand for bike rentals based on various factors such as weather conditions, time of year, and other relevant features.
 
 Dataset Overview: We've got this dataset that has a bunch of information in it, like temperature, humidity, wind speed, and how many bikes were rented out on different days. It's like a big spreadsheet with all this data in it, and we're going to use it to see if we can find any patterns or trends that might help us predict bike rentals in the future.
 
@@ -6,41 +8,30 @@ Table of Contents
 
 1 .General Information: 
 
-# Exploratory Data Analysis (EDA) Steps:
+#### Exploratory Data Analysis (EDA) Steps:
 
-##Loading the Dataset: We started by loading the dataset into our environment using Python libraries like pandas.
+##### Loading the Dataset: We started by loading the dataset into our environment using Python libraries like pandas.
  
-##Understanding the Data: After loading the dataset, we examined its structure, checked for any missing values, and gained a basic understanding of the variables.
+##### Understanding the Data: After loading the dataset, we examined its structure, checked for any missing values, and gained a basic understanding of the variables.
 
-##Data Cleaning: We performed necessary data cleaning tasks such as handling missing values, correcting data types, and removing duplicates if any.
-
-##Uni-Variant Analysis: In this step, we analyzed each variable individually to understand its distribution and characteristics. We used histograms, box plots, and other visualizations to explore the data.
-
-##Bi-Variant Analysis: Next, we looked at the relationships between pairs of variables to identify any patterns or correlations. Scatter plots, correlation matrices, and heatmaps were some of the tools we used for this analysis.
-
-##Multi-Variant Analysis: Finally, we examined the interactions between multiple variables simultaneously. We used techniques like pair plots and grouped analysis to gain deeper insights into the relationships within the data.
+##### Data Cleaning: We performed necessary data cleaning tasks such as handling missing values, correcting data types, and removing duplicates if any.
 
 These steps helped us uncover important insights about the dataset and laid the foundation for further analysis and modeling.
 
-# Model Building Steps:
+#### Model Building Steps:
 
-##Build a multiple linear regression model
+- Build a multiple linear regression model
+- Initialize the linear regression model
+- Train the model on the training set
+- Train the model on the training set
 
-##Initialize the linear regression model
+#### Model Evaluation
 
-##Train the model on the training set
+- Make predictions on the test set
+- Evaluate the model's performance
+- Calculate root mean squared error (RMSE)
 
-##Train the model on the training set
-
-# Model Evaluation
-
-##Make predictions on the test set
-
-##Evaluate the model's performance
-
-##Calculate root mean squared error (RMSE)
-
-##Calculate R-squared score
+#### Calculate R-squared score
 
 2. Tools Used:
 
